@@ -1,0 +1,84 @@
+
+tRNAscan-SE v.2.0.7 (Oct 2020) scan results (on host lactads09)
+Started: Sex Abr 16 06:22:39 -03 2021
+
+------------------------------------------------------------
+Sequence file(s) to search:        /strg1/groups/GENCLIMA/Vellozia/ncRNA/genomes/Vellozia/Vintermedia/Vellozia_intermedia.pseudochroms.fasta
+Search Mode:                       Eukaryotic
+Results written to:                Vintermedia.trnas
+Output format:                     Tabular
+Searching with:                    Infernal First Pass->Infernal
+Isotype-specific model scan:       Yes
+Covariance model:                  /strg1/groups/GENCLIMA/Vellozia/ncRNA/src/lib/tRNAscan-SE/models/TRNAinf-euk.cm
+                                   /strg1/groups/GENCLIMA/Vellozia/ncRNA/src/lib/tRNAscan-SE/models/TRNAinf-euk-SeC.cm
+Infernal first pass cutoff score:  10
+
+Temporary directory:               /var/tmp/pbs.1509[1].lactads09
+Search statistics saved in:        Vintermedia.stats
+------------------------------------------------------------
+
+First-pass Stats:
+---------------
+Sequences read:         403
+Seqs w/at least 1 hit:  20
+Bases read:             473323263 (x2 for both strands)
+Bases in tRNAs:         42781
+tRNAs predicted:        564
+Av. tRNA length:        75
+Script CPU time:        13.93 s
+Scan CPU time:          2734.40 s
+Scan speed:             346.2 Kbp/sec
+
+First pass search(es) ended: Sex Abr 16 06:59:17 -03 2021
+
+Infernal Stats:
+-----------
+Candidate tRNAs read:     564
+Infernal-confirmed tRNAs:     469
+Bases scanned by Infernal:  54061
+% seq scanned by Infernal:  0.0 %
+Script CPU time:          179.33 s
+Infernal CPU time:            540.60 s
+Scan speed:               100.0 bp/sec
+
+Infernal analysis of tRNAs ended: Sex Abr 16 07:25:18 -03 2021
+
+Overall scan speed: 272945.7 bp/sec
+
+tRNAs decoding Standard 20 AA:              435
+Selenocysteine tRNAs (TCA):                 0
+Possible suppressor tRNAs (CTA,TTA,TCA):    0
+tRNAs with undetermined/unknown isotypes:   7
+Predicted pseudogenes:                      27
+                                            -------
+Total tRNAs:                                469
+
+tRNAs with introns:     	29
+
+| Leu-AAG: 1 | Leu-CAA: 2 | Lys-TTT: 1 | Ile-TAT: 1 | Met-CAT: 14 | Tyr-GTA: 10 |
+
+Isotype / Anticodon Counts:
+
+Ala     : 30	  AGC: 14      GGC:         CGC: 6       TGC: 10    
+Gly     : 32	  ACC:         GCC: 16      CCC: 6       TCC: 10    
+Pro     : 22	  AGG: 7       GGG:         CGG: 5       TGG: 10    
+Thr     : 18	  AGT: 8       GGT: 2       CGT: 3       TGT: 5     
+Val     : 27	  AAC: 10      GAC: 5       CAC: 7       TAC: 5     
+Ser     : 28	  AGA: 10      GGA: 1       CGA: 5       TGA: 5       ACT:         GCT: 7     
+Arg     : 31	  ACG: 10      GCG:         CCG: 3       TCG: 6       CCT: 5       TCT: 7     
+Leu     : 43	  AAG: 11      GAG:         CAG: 9       TAG: 6       CAA: 12      TAA: 5     
+Phe     : 11	  AAA: 2       GAA: 9                               
+Asn     : 19	  ATT: 1       GTT: 18                              
+Lys     : 30	                            CTT: 13      TTT: 17    
+Asp     : 24	  ATC:         GTC: 24                              
+Glu     : 29	                            CTC: 20      TTC: 9     
+His     : 17	  ATG: 1       GTG: 16                              
+Gln     : 12	                            CTG: 7       TTG: 5     
+Ile     : 21	  AAT: 16      GAT:         CAT:         TAT: 5     
+Met/iMet: 31	                            CAT: 31                 
+Tyr     : 11	  ATA:         GTA: 11                              
+Supres  : 1	               CTA:         TTA:         TCA: 1     
+Cys     : 11	  ACA: 2       GCA: 9                               
+Trp     : 12	                            CCA: 12                 
+SelCys  : 0	                                         TCA:       
+
